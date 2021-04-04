@@ -8,7 +8,7 @@
   color: #6d6b6c;
   font-family: "myFont";
   letter-spacing: 8px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .bg-judul {
@@ -39,6 +39,14 @@
 
 .hero {
   background-color: #e9e8e6;
+}
+
+.cowo {
+  width: 290px;
+}
+
+.cewe {
+  height: 180.5px;
 }
 
 .row .gambar {
@@ -143,5 +151,29 @@ footer {
     margin: 20px;
     width: 50px;
     height: 50px;
+  }
+
+  .cowo {
+    width: 600px;
+  }
+
+  .cewe {
+    height: 373.44px;
+  }
+
+  .container h1 {
+    color: #6d6b6c;
+    font-family: "myFont";
+    letter-spacing: 8px;
+    font-size: 60px;
+  }
+
+  .galeri {
+    background-color: #c3c1bd;
+    width: 290px;
+    height: 170px;
+    display: block;
+    margin: 20px auto;
+    position: relative;
   }
 }
