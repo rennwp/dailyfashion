@@ -1,0 +1,147 @@
+/* MEMANGGIL FONT */
+@font-face {
+  font-family: myFont;
+  src: url(Play\ Pretend.otf);
+}
+
+.container h1 {
+  color: #6d6b6c;
+  font-family: "myFont";
+  letter-spacing: 8px;
+  font-size: 60px;
+}
+
+.bg-judul {
+  background-color: #e9e8e6;
+}
+
+.navbar .nav-link {
+  margin: 0 50px;
+  font-weight: 500;
+  font-family: "myFont";
+}
+
+.navbar {
+  border-bottom: solid 3px #6d6b6c;
+}
+
+.bg-mycolor {
+  background-color: white;
+}
+
+.hero .myborderkanan {
+  border-right: solid 0px #6d6b6c;
+}
+
+.hero .myborderbawah {
+  border-bottom: solid 4px #6d6b6c;
+}
+
+.hero {
+  background-color: #e9e8e6;
+}
+
+.row .gambar {
+  display: block;
+  margin: auto;
+}
+
+.kontainer {
+  position: relative;
+}
+
+.mybtn {
+  color: #6d6b6c;
+  letter-spacing: 4px;
+  margin: auto;
+  padding: 10px;
+  font-family: "myFont";
+  background: #c3c1bd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.galeri {
+  background-color: #c3c1bd;
+  width: 290px;
+  height: 170px;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+}
+
+.galeri img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.galeri .chelsie {
+  color: #c3c1bd;
+  font-family: "myFont";
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-galeri {
+  background-image: linear-gradient(to right, rgb(163, 162, 162), rgb(255, 255, 255));
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer {
+  height: 100%;
+  line-height: 90px;
+  font-family: "myFont";
+  letter-spacing: 3px;
+  color: #c3c1bd;
+  background-color: #616161;
+}
+
+.sosmed svg {
+  display: block;
+  margin: 20px;
+  width: 25px;
+  height: 25px;
+}
+.sosmed {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.sosmed a {
+  color: #7c7c7c;
+}
+
+.sosmed a:hover {
+  color: #919090;
+}
+
+/* Large devices (desktops, 900px and up) */
+@media (min-width: 992px) {
+  .galeri {
+    background-color: #c3c1bd;
+    width: 290px;
+    height: 170px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .hero .myborderkanan {
+    border-right: solid 3px #6d6b6c;
+  }
+
+  .sosmed svg {
+    display: block;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+  }
+}
